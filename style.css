@@ -1,0 +1,25 @@
+* {
+    background-color: #2F3136;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+#icon {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+#domain {
+    color: #F04747;
+    font-family: 'Nunito', sans-serif;
+    padding-left: 7rem;
+    padding-top: 4rem;
+    font-size: 1.45rem;
+}

@@ -2,6 +2,12 @@
     background-color: #2F3136;
 }
 
+html {
+    background-image: url(/img/rebub.png);
+    background-repeat: no-repeat;
+    
+}
+
 a {
     text-decoration: none;
 }
@@ -10,16 +16,50 @@ a:hover {
     cursor: pointer;
 }
 
-#icon {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-}
-
 #domain {
     color: #F04747;
     font-family: 'Nunito', sans-serif;
     padding-left: 7rem;
-    padding-top: 4rem;
+    padding-top: 6rem;
     font-size: 1.45rem;
+}
+
+#center-cont {
+    text-align: center;
+    width: auto;
+}
+
+h2 {
+    margin-bottom: 16px;
+}
+
+#name {
+    font-family: 'Neonderthaw', cursive;
+    font-size: 3.5rem;
+    color: #F04747;
+    letter-spacing: 0.2rem;
+    backdrop-filter: blur(10px) saturate(70%);
+}
+
+#title {
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-style: italic;
+    font-size: 1.25rem;
+    margin: 0;
+}
+
+#centerpic {
+    width: 20rem;
+    border-radius: 20px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+
+#socials img {
+    color: white;
+    width: 3.75rem;
+    margin-right: 1.8rem;
+    cursor: pointer;
 }

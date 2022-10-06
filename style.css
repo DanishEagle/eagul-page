@@ -1,11 +1,7 @@
-* {
-    background-color: #2F3136;
-}
-
 html {
     background-image: url(/img/rebub.png);
     background-repeat: no-repeat;
-    
+    background-color: #2F3136;
 }
 
 a {
@@ -38,7 +34,6 @@ h2 {
     font-size: 3.5rem;
     color: #F04747;
     letter-spacing: 0.2rem;
-    backdrop-filter: blur(10px) saturate(70%);
 }
 
 #title {
@@ -57,9 +52,18 @@ h2 {
     display: inline-block;
 }
 
-#socials img {
+#socials a img {
     color: white;
     width: 3.75rem;
-    margin-right: 1.8rem;
     cursor: pointer;
+}
+
+#socials a:not(:last-child) {
+    margin-right: 1.8rem;
+}
+
+@media only screen and (max-width: 600px) {
+    #domain {
+        padding-left: 2rem ;
+    }
 }

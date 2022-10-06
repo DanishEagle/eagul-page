@@ -1,4 +1,6 @@
-* {
+html {
+    background-image: url(/img/rebub.png);
+    background-repeat: no-repeat;
     background-color: #2F3136;
 }
 
@@ -10,16 +12,58 @@ a:hover {
     cursor: pointer;
 }
 
-#icon {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-}
-
 #domain {
     color: #F04747;
     font-family: 'Nunito', sans-serif;
     padding-left: 7rem;
-    padding-top: 4rem;
+    padding-top: 6rem;
     font-size: 1.45rem;
+}
+
+#center-cont {
+    text-align: center;
+    width: auto;
+}
+
+h2 {
+    margin-bottom: 16px;
+}
+
+#name {
+    font-family: 'Neonderthaw', cursive;
+    font-size: 3.5rem;
+    color: #F04747;
+    letter-spacing: 0.2rem;
+}
+
+#title {
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-style: italic;
+    font-size: 1.25rem;
+    margin: 0;
+}
+
+#centerpic {
+    width: 20rem;
+    border-radius: 20px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+
+#socials a img {
+    color: white;
+    width: 3.75rem;
+    cursor: pointer;
+}
+
+#socials a:not(:last-child) {
+    margin-right: 1.8rem;
+}
+
+@media only screen and (max-width: 600px) {
+    #domain {
+        padding-left: 2rem ;
+    }
 }
